@@ -5,6 +5,7 @@ package Sort;
  * User: hot
  * Date: 17/12/22
  * Time: 下午4:16
+ * 快速排序
  */
 public class QuickSort {
 
