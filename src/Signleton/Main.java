@@ -14,12 +14,10 @@ import java.util.concurrent.Executors;
  */
 public class Main {
 
-
     private static final ExecutorService threadPool = Executors.newFixedThreadPool(4);
 
-
+    //test
     public static void main(String[] args) {
-
 
         for (int i = 0; i < 100; i++) {
             final int index = i;
@@ -33,8 +31,8 @@ public class Main {
                         //System.out.println(Signleton.EnumClass.Signgleton.INSTANCE);
                         Signgleton signgleton = Signgleton.INSTANCE;
                         signgleton.print();
-                       // System.out.println(signleton.Hungry.Signleton.getInstance());
-                       //System.out.println(signleton.StaticInnerClass.Signleton.getInstance());
+                        // System.out.println(signleton.Hungry.Signleton.getInstance());
+                        //System.out.println(signleton.StaticInnerClass.Signleton.getInstance());
                         //System.out.println(Single.getInstance());
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
@@ -44,6 +42,5 @@ public class Main {
             });
         }
     }
-
 
 }
